@@ -16,7 +16,7 @@ def PassGen(length):
  for j in range(length):
   lis.append(chr(random.randint(33,121)))
  print (*lis)
- print("lol1")
+ 
 
 def PassGenWithoutSpecial(length):
  while (length>0):
